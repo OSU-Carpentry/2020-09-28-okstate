@@ -3,10 +3,13 @@
 Ecology workshops
 {% endcomment %}
 
-
+{% comment %}
 {% if site.curriculum == "dc-ecology" %}
 
 {% if site.flavor == "r" %}
+{% endcomment %}
+
+{% comment %}
 <p>
   The setup instructions for the Data Carpentry Ecology workshops (with R)
   can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html">
@@ -14,9 +17,11 @@ Ecology workshops
 </p>
 
 {% elsif site.flavor == "python" %}
+{% endcomment %}
 <p>
- Participants will login to a remote computing environment that has already been loaded with the necessary software (Anaconda and Jupyter Notebooks), data, and scripts. 
-  Therefore it is not necessary to install or download anything in advance. 
+ Participants will login to a remote computing environment that has already been loaded with the necessary software (Anaconda and Jupyter Notebooks), data, and scripts. Therefore it is not necessary to install or download anything in advance. 
+</p>
+<p>
   Thanks to the OSU High Performance Computing Center for their assistance configuring these computing environments</a>.
 </p>
 {% else %}
