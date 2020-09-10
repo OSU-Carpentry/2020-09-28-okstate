@@ -408,7 +408,7 @@ to include the relevant installation instrucctions.
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
 
-{% comment %}
+
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
@@ -420,4 +420,4 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
-{% endcomment %}
+
