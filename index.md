@@ -125,9 +125,9 @@ workshop is only open to people from a particular institution.
 {% endif %}
 
 
-### LOCATION
+### LOCATION ###
 
-**We will offer this workshop remotely. You will receive the meeting link in your confirmation email after you register.**
+**We will offer this workshop remotely. You will receive the meeting link in a confirmation email after you register.**
 
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
