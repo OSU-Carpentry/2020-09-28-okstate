@@ -124,11 +124,11 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-
+{% comment %}
 ### LOCATION ###
 
 **We will offer this workshop remotely. You will receive the meeting link in a confirmation email after you register.**
-
+{% endcomment %}
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
 {% assign online = "true_private" %}
@@ -237,13 +237,13 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
-
+{% comment %}
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
-
+{% endcomment %}
 {% comment %}
 WHO CAN ATTEND?
 
