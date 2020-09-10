@@ -180,7 +180,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants have a laptop or desktop computer with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Software will be accessed through a computing cluster and no advance installation will be needed.</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Software will be accessed through a computing cluster and no advance installation will be needed.</a>
 </p>
 
 {% comment %}
