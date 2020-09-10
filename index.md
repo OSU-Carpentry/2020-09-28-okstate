@@ -389,9 +389,7 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  workshop, you will need an up-to-date web browser. Participants will login to a remote computing environment that has already been loaded with the necessary software (Anaconda and Jupyter Notebooks), data, and scripts. Therefore it is not necessary to install or download anything in advance. Thanks to the OSU High Performance Computing Center for their assistance configuring these computing environments.
 </p>
 
 {% comment %}
