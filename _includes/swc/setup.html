@@ -2,7 +2,7 @@
 {% unless curricula contains site.curriculum %}
 {% include warning-curriculum.html %}
 {% endunless %}
-
+{% comment %}
 {% include install_instructions/shell.html %}
 {% include install_instructions/git.html %}
 {% include install_instructions/editor.html %}
@@ -17,7 +17,7 @@
 {% else %}
 {% include warning-flavor.html %}
 {% endif %}
-
+{% endcomment %}
 {% comment %}
 The following setup instructions are commented out because Carpentries workshops
 cover the these topics less frequently. Please uncomment the lines that
