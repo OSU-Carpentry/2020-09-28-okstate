@@ -13,7 +13,7 @@ humandate: "Sep 28-29, 2020"    # human-readable dates for the workshop (e.g., "
 humantime: "8:30 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-09-28     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-09-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Phillip Doehle", "Rajendra Maharjan"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Phillip Doehle", "tbd"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Kay Bjornen", "Clarke Iakovakis"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["kay.bjornen@okstate.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://tiger.hpc.okstate.edu/sites/etherpad/p/2020-09-28-okstate
