@@ -76,23 +76,24 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7099136" matches with the above code: jQuery("#s_lc_event_7099136")  //-->
-<p><a id="s_lc_event_7099136" href="https://okstate.libcal.com/calendar/events/DC_python1">REGISTER</a>
+<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7113114" matches with the above code: jQuery("#s_lc_event_7113114")  //-->
+<a id="s_lc_event_7113114" href="https://okstate.libcal.com/calendar/events/swc_python">REGISTER</a>
 <!-- Below is optional element styling  //-->
 <style>
-#s_lc_event_7099136 {
-  background: #FF6600;
-  border: 1px solid #DFDFDF;
+#s_lc_event_7113114 {
+  background: #F5910E;
+  border: 1px solid #F5910E;
   border-radius: 4px;
-  color: #white;
-  font: 18px Arial, Helvetica, Verdana;
+  color: #0A0A0A;
+  font: 14px Arial, Helvetica, Verdana;
   padding: 8px 20px;
   cursor: pointer;
 }
-#s_lc_event_7099136:hover {
+#s_lc_event_7113114:hover {
   opacity: 0.9;
 }
 </style>
+
 
 <h2 id="general">General Information</h2>
 
